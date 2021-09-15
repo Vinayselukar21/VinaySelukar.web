@@ -35,7 +35,7 @@ body{
 }
 .profile-img{
     max-height: 352px;
-    width: 352px;
+    max-width: 352px;
     clip-path: circle(50.0% at 50% 50%);
     display: block;
     margin: auto ;
