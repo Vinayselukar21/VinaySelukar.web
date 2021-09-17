@@ -109,6 +109,10 @@ body{
     color: #0e76a8;
 }
 
+.git-handle{
+    color: white;
+}
+
 footer{
     text-align: center;
     background-color: rgb(41, 41, 41);
