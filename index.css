@@ -173,10 +173,11 @@ footer a{
     .about h2{
         font-size: 25px;
     }
-    .about{
-        padding: 0px;
+    .photo{
+        height:350px;
     }
 }
+
 
 
 
