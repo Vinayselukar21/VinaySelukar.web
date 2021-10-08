@@ -422,7 +422,7 @@ footer a{
     .front-second,.front-third,.front-fourth{
         display: block;
         padding: 0 20px 50px;
-        height: auto;
+        height: 100vh;
     }
     .second-div-1, .second-div-2,.third-div-1,.third-div-2,.fourth-div-1,.fourth-div-2{
         width: 100%;
