@@ -4,53 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
-    <title>Home - Vinay Selukar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">     <link rel="stylesheet" href="index.css">
+    <title>Vinay Selukar</title>
 </head>
 <body>
-    <section class="s1">
-        <div class="section_1">
-            <div class="container_1">
-                <div class=" item discription">
-                    <h1 class="head_name">VINAY <br> SELUKAR</h1> 
-                    <h3 class="dev">Web Developer</h3>
-                    <br>
-                    <p class="tag">Passionate about building websites.</p>
-                </div>
-                <div class="item photo">
-                    <img class="profile-img" src="./images/1.jpg" alt="">
-                </div>
+    <section class="front-top">
+        <div class="fade-in">
+            <b>Vinay Selukar</b>
+        </div>
+        <div class="small wow fadeInUp">
+            A Full-Stack Developer and UI Designer
+        </div>
+    </section>
+    <section class="front-second">
+        <div class="second-div-1">
+            <h1 class="item wow fadeInDown"><b>About</b></h1>
+            <p class="p-small wow fadeInLeft">Hello, </p>
+            <p class="p-small wow fadeInLeft">I am Vinay Selukar, </p>
+            <p class="p-small wow fadeInLeft"> an undergraduate, positive thinker, team player having consistently learning attitude in frontend Web Design</p>
+            <!-- <p class="p-small wow fadeInLeft">who is consistently learning and developing skills</p> -->
+        </div>
+        <div class="second-div-2">
+            <img class="wow fadeInDown" src="/images/1.jpg" alt="">
+        </div>
+    </section>
+    <section class="front-third">
+        <div class="third-div-1">
+            <h1 class="item wow fadeInDown"><b>Skills</b></h1>
+            <!-- <p class="p-small wow fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores nam animi reprehenderit maxime explicabo delectus, error ipsa nemo. Minus!</p> -->
+        </div>
+        <div class="third-div-2">
+            <div class="htmlsccjs">
+                <img src="/images/html.png" alt="this is an image" class="hcj wow fadeInLeft">
+                <img src="/images/css.png" alt="this is an image" class="hcj wow fadeInDown">
+                <img src="/images/js-logo.png" alt="this is an image" class="hcj wow fadeInRight">
+            </div>
+            <div class="htmlsccjs">
+                <img src="/images/mongodb.png" alt="this is an image" class="hcj wow fadeInUp">
+                <img src="/images/nodejs.png" alt="this is an image" class="hcj wow fadeInDown">
             </div>
         </div>
-    </section>       
-    <section class="s2">
-        <div class="section_2">
-            <div class="container_2">
-                <div class="about_con">
-                    <div class="new_2 about">
-                        <h2>Hello</h2>
-                        <h2>I'am Vinay Selukar,</h2>
-                        <h2>An Undergrad, Web Developer, Positive Thinker, <br> Team Player who is consistently learning and developing.</h2>
-                    </div>
-                    <div class="new_2">
-
-                    </div>
-                </div>
-            </div>
-        </div>      
     </section>
-
-    <div class="sm-handle">
-        <a href="#" class="tw-handle"><i style="font-size:24px" class="fa">&#xf099;</i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="#" class="fb-handle "><i style='font-size:24px' class="fa fb-handle fa-lg">&#xf09a;</i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/vinay-selukar-7443b61bb/" class="in-handle"><i style="font-size:24px" class="fa in-handle fa-lg">&#xf08c;</i></a>
-        <a href="https://www.linkedin.com/in/vinay-selukar-7443b61bb/" class="in-handle"><i style="font-size:24px" class="fa git-handle">&#xf09b;</i></a>
-    </div>
-
-    <footer>
-        <a class="foot" href="#">&copy; | Vinay Selukar</a>
-    </footer>
+    <section class="front-fourth">
+        <div class="fourth-div-1">
+            <h1 class="item wow fadeInDown"><b>Projects</b></h1>
+            <!-- <p class="p-small wow fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores nam animi reprehenderitmaxime explicabo delectus, error ipsa nemo. Minus!</p> -->
+        </div>
+        <div class="fourth-div-2">
+            <div class="pro">
+                <a href="https://github.com/Vinayselukar21/Gym-Website" target="_blank"><img src="/images/MF-project.jpg" alt="this is an image" id="pimg-1" class="pimg wow fadeInUp"></a>
+                <a href="https://github.com/Vinayselukar21/Shloka-Dictonary" target="_blank"><img src="/images/sd-project.jpg" alt="this is an image" id="pimg-2" class="pimg wow fadeInDown"></a>
+            </div>
+            <div class="pro">
+                <img src="/images/CC-project.jpg" alt="this is an image" id="pimg-3" class="pimg wow fadeInRight">
+            </div>
+        </div>
+    </section>
+   
 </body>
+
+<footer id="footer">
+    <a href="#">Copyright &copy; | Vinay Selukar</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="index.js"></script>
+
+
+
 </html>
