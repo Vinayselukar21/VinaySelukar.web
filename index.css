@@ -384,14 +384,34 @@ footer a{
     .small{
         font-size: 20px;
     }
-    .front-second,.front-third,.front-fourth{
+    .front-second,.front-fourth{
         display: block;
         padding: 0 20px 50px;
-        height: 390px;
+        height: 100vh;
+    }
+    .front-third{
+        display: block;
+        padding: 0 20px 50px;
+        height: 90vh;
     }
     .second-div-1, .second-div-2,.third-div-1,.third-div-2,.fourth-div-1,.fourth-div-2{
         width: 100%;
         padding-bottom: 50px;
+    }
+    .third-div-1{
+        margin-top: 100px;
+    }
+    .front-fourth{
+        display: block;
+        padding: 0 20px 50px;
+        height: auto;
+    }
+    .fourth-div-1{
+        height: 20vh;
+    }
+    .fourth-div-2{
+        height: 80vh;
+        padding-top: 167px;
     }
     div h1, div p{
         padding: 0 20px;
